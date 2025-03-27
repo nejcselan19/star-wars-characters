@@ -1,22 +1,8 @@
-import { useState } from 'react'
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold text-center">Star Wars Character Editor</h1>
-
-      <button onClick={handleClick}>
-      You pressed me {count} times
-      </button>
-
+    <div className="min-h-screen flex items-center justify-center bg-zinc-900 text-white">
+      <h1 className="text-4xl font-bold tracking-tight">Star Wars Character Editor</h1>
     </div>
-
   );
 }
 
